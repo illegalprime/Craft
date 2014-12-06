@@ -6,10 +6,12 @@
 #include "cube.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include "math.h"
 #include "matrix.h"
 #include <stdio.h>
 #include <stdlib.h>
+
+#define  __USE_MISC
+#include "math.h"
 
 void set_vertex(GLfloat *d, float x, float y, float z, float nx, float ny, float nz, float r, float g, float b, int *index);
 
